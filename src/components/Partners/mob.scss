@@ -1,0 +1,49 @@
+.partners {
+    padding: 0 20px;
+    margin-bottom: 75px;
+
+    &__title {
+        margin-bottom: 30px;
+
+        font-size: 28px;
+        text-transform: uppercase;
+        color: rgba(18, 25, 32, 1);
+    }
+
+    &__companies {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        margin-bottom: 20px;
+        height: 140px;
+
+        border: 1px solid #EBEBF1;
+
+        &:last-child {
+            margin-bottom: 0px;
+        }
+
+        &--item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            border-radius: 5px;
+
+            width: 100%;
+
+            &--img {
+                width: auto; 
+
+                img {
+                    max-height: 100%;
+                    max-width: 100%;
+                    vertical-align: middle;
+                    border-style: none;
+                }           
+            }
+        }
+    }
+
+}
