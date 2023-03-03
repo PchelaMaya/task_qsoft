@@ -29,6 +29,7 @@
             }
             &--desc {
                 display: none;
+                cursor: pointer;
             }
         }
     }
@@ -48,10 +49,13 @@
             background: none;
             cursor: pointer;
         }
-
+        input {
+            outline: none;
+        }
         &--input {
             width: 100%;
             border: none;
+ 
         }
         &--desc {
             display: none;
