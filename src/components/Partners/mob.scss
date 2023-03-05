@@ -1,5 +1,4 @@
 .partners {
-    margin-bottom: 75px;
     padding: 0px 20px;
 
     &__title {
@@ -9,7 +8,9 @@
         text-transform: uppercase;
         color: rgba(18, 25, 32, 1);
     }
-
+    &__content {
+        margin-bottom: 75px;
+    }
     &__companies {
         display: flex;
         justify-content: center;
